@@ -1,0 +1,5 @@
+services:
+  - name: frontend
+    type: node
+    command: npm start
+
