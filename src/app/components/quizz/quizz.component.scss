@@ -1,0 +1,147 @@
+/* quizz.component.scss */
+
+.quizz__container {
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.quizz_questions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #4224d9;
+  border-radius: 8px;
+  background-color: #644ED2;
+  width: 100%;
+  height: 200px;
+  font-size: 20px;
+  font-family: 'Segoe UI';
+  margin-bottom: 20px;
+
+  /* Novos estilos ou ajustes adicionados */
+  padding: 10px; /* Exemplo de nova configuração */
+  color: #ffffff; /* Outra nova configuração */
+}
+
+/* quizz.component.scss */
+
+.quizz_options {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+
+  /* Novos estilos ou ajustes adicionados */
+  background-color: #644ED2; /* Exemplo de nova configuração */
+  padding: 15px; /* Outra nova configuração */
+}
+
+btn-option {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #18ab29;
+  width: 50%;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+
+  /* Novos estilos ou ajustes adicionados */
+  margin: 10px; /* Exemplo de nova configuração */
+  transition: background-color 0.3s; /* Adicionando transição ao passar o mouse */
+}
+
+.btn-option:hover {
+  background-color: #5cbf2a;
+}
+
+.btn-option:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/* Adicione media queries para responsividade */
+@media only screen and (max-width: 600px) {
+  .quizz__container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  quizz_questions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #4224d9;
+    border-radius: 8px;
+    background-color: #644ED2;
+    width: 100%;
+    height: 200px;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    margin-bottom: 20px;
+
+    /* Ajustes para dispositivos móveis */
+    @media only screen and (max-width: 600px) {
+      height: auto; /* Ajuste de altura automática em dispositivos móveis */
+      padding: 15px; /* Adicionando espaçamento interno */
+      font-size: 16px; /* Reduzindo o tamanho da fonte */
+    }
+  }
+
+  .quizz_options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+
+    /* Estilos específicos para opções em dispositivos móveis */
+    @media only screen and (max-width: 600px) {
+      flex-direction: column; /* Alterando para uma direção de coluna em telas menores */
+    }
+  }
+
+
+  .btn-option {
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #18ab29;
+    width: 50%;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #2f6627;
+
+    /* Ajustes para dispositivos móveis */
+    @media only screen and (max-width: 600px) {
+      width: 100%; /* Ocupando a largura total da tela */
+      margin-bottom: 10px; /* Adicionando espaçamento inferior entre botões */
+    }
+
+    &:last-child {
+      margin-bottom: 0; /* Removendo o espaçamento inferior do último botão */
+    }
+
+    /* Pseudo-classes hover e active permanecem as mesmas */
+    &:hover {
+      background-color: #5cbf2a;
+    }
+
+    &:active {
+      position: relative;
+      top: 1px;
+    }
+  }
+
+}
