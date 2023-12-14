@@ -30,3 +30,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Responsiveness
 
 We have incorporated responsive styles to ensure a great user experience on various devices and screen sizes. The styles have been adjusted to provide clear readability and easy navigation across different platforms.
+
+## Thanks
+
+Dio and Advisor Felipe Aguiar
