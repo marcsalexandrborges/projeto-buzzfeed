@@ -1,0 +1,48 @@
+{
+  "title":"Descubra seu estilo no Call of Duty!",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual é o seu jogo Call of Duty favorito?",
+      "options":[
+        {"id": 1, "name": "Call of Duty: Modern Warfare", "alias": "A"},
+        {"id": 2, "name": "Call of Duty: Black Ops", "alias": "B"},
+        {"id": 3, "name": "Call of Duty: Warzone", "alias": "A"},
+        {"id": 4, "name": "Call of Duty: Cold War", "alias": "B"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Qual é sua arma preferida no Call of Duty?",
+      "options":[
+        {"id": 1, "name":"Rifle de Assalto", "alias":"B"},
+        {"id": 2, "name":"Submetralhadora", "alias":"A"},
+        {"id": 3, "name":"Shotgun", "alias":"B"}
+      ]
+    },
+    {
+      "id":3,
+      "question": " Como você aborda uma missão no Call of Duty?",
+      "options":[
+        {"id": 1, "name":"Furtivamente", "alias":"B"},
+        {"id": 2, "name":"Agressivamente", "alias":"A"},
+        {"id": 3, "name":"Taticamente", "alias":"A"},
+        {"id": 4, "name":"Estrategicamente", "alias":"B"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual mapa de Call of Duty você acha mais desafiador?",
+      "options":[
+        {"id": 1, "name":"Nuketown", "alias":"A"},
+        {"id": 2, "name":"Rust", "alias":"B"},
+        {"id": 3, "name":"Gulag", "alias":"B"},
+        {"id": 4, "name":"Verdansk.", "alias":"A"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Você demonstra habilidades excepcionais no campo de batalha, mostrando uma inclinação para estratégias ardilosas e métodos não convencionais. Você seria um verdadeiro vilão nas linhas de combate do Call of Duty!",
+    "B": "Sua abordagem heroica e compromisso com a justiça o colocam no caminho do herói no Call of Duty. Esteja pronto para lutar pela paz e proteger os inocentes!"
+  }
+}
